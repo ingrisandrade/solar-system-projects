@@ -12,7 +12,7 @@ class App extends React.Component {
         <Header />
         <SolarSystem />
         <Title headline="S. System" />
-        <PlanetCard planetName="Nomes dos Planetas" />
+        <PlanetCard planetName="Nomes dos Planetas" planetImage=" " />
       </div>
     );
   }
