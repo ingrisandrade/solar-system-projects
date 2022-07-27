@@ -4,6 +4,7 @@ import PlanetCard from './components/PlanetCard';
 import SolarSystem from './components/SolarSystem';
 import Missions from './components/Missions';
 import Title from './components/Title';
+import MissionCard from './components/MissionCard';
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
         {/* Abaixo de solar system - monitoria */}
         <Title headline="S. System" />
         <PlanetCard planetName="Nomes dos Planetas" planetImage=" " />
+        <MissionCard name="Name" year="Ano" country="País" destination="Destino" />
       </div>
     );
   }
