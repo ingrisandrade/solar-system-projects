@@ -10,7 +10,7 @@ class App extends React.Component {
         <p>Sistema Solar</p>
         <Header />
         <SolarSystem />
-        <Title headline="Planets" />
+        <Title headline="S. System" />
       </div>
     );
   }
